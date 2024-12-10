@@ -76,7 +76,7 @@ header {
     display: block;
     padding-top: 350px ;
     padding-bottom: 350px;
-    background-image: url("../images/b_index.jpg");
+    background-image: url("b_index.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -86,7 +86,7 @@ header {
     padding-top: 100px;
     background-color: white;
     color: black;
-    background-image: url(..//images/fleursinvis.png);
+    background-image: url("fleursinvis.png");
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: top right;
