@@ -75,7 +75,7 @@ header {
     display: block;
     padding-top: 350px ;
     padding-bottom: 350px;
-    background-image: url("../images/b_about.jpg");
+    background-image: url("b_about.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -100,7 +100,7 @@ header {
 
 
 #ENG{
-    background-image: url("../images/flag_eng.png");
+    background-image: url("flag_eng.png");
     background-color: white;
     background-size: 100%;
     padding: 25px;
@@ -135,7 +135,7 @@ button:active {
 }
 
 #FR {
-    background-image: url("../images/flag_fr.png");
+    background-image: url("flag_fr.png");
     background-color: white;
     background-size: 100%;
     padding: 25px;
