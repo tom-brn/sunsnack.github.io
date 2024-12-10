@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    top: 0%;
+    z-index: 10;
+    font-size: 20px;
+    border: solid, 7px, darkgreen;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.top {
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-weight: bold;
+    padding: 50px 0px 50px 0px;
+    padding-left: 7%;
+    padding-right: 7%;
+    transition: 300ms;
+    z-index: 11;
+    
+}
+
+.top:hover {
+    font-size: 22px;
+    background-color: darkgreen;
+}
+
+#mid{
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-weight: bold;
+    padding: 50px 0px 50px 0px;
+    padding-left: 7%;
+    padding-right: 7%;
+    transition: 300ms;
+    z-index: 11;
+}
+
+#logo {
+    position: absolute;
+    top: 0%;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#logo:hover{
+    filter: brightness(75%);
+    scale: 110%;
+}
+
+#banniere {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+    margin-top: 50px;
+    display: block;
+    padding-top: 350px ;
+    padding-bottom: 350px;
+    background-image: url("../images/b_index.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.blanc{
+    padding:50px;
+    padding-top: 100px;
+    background-color: white;
+    color: black;
+    background-image: url(..//images/fleursinvis.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.vert {
+    padding: 50px;
+    padding-top: 100px;
+    background-color: green;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px 50px 50px 0px;
+}
+
+p {
+    font-size: 25px;
+    margin: 100px;
+}
+
+.voirplusun{
+    display: grid;
+    place-items: center;
+    color: green;
+    z-index: 10;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 300ms;
+    }
+
+.voirplusun:hover{
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+
+.voirplusdeux {
+    display: grid;
+    place-items: center;
+    color: white;
+    z-index: 10;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 300ms;
+}
+
+.voirplusdeux:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#infos {
+    color: rgb(148, 148, 148);
+    background-color: rgb(36, 36, 36);
+    padding: 50px;
+}
+
+iframe{
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    padding: 5px;
+    z-index: 15;
+    float: right;
+    clear: both;
+    margin-right: 100px;
+    margin-top: 75px;
+}

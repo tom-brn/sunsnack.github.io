@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    top: 0%;
+    z-index: 10;
+    font-size: 20px;
+    border: solid, 7px, darkgreen;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.top {
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-weight: bold;
+    padding: 50px 0px 50px 0px;
+    padding-left: 7%;
+    padding-right: 7%;
+    transition: 300ms;
+    z-index: 11;
+
+}
+
+.top:hover {
+    font-size: 22px;
+    background-color: darkgreen;
+}
+
+#mid{
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+    font-weight: bold;
+    padding: 50px 0px 50px 0px;
+    padding-left: 7%;
+    padding-right: 7%;
+    transition: 300ms;
+    z-index: 11;
+}
+
+#logo {
+    position: absolute;
+    top: 0%;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#logo:hover{
+    filter: brightness(75%);
+    scale: 110%;
+}
+
+#banniere {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+    margin-top: 50px;
+    display: block;
+    padding-top: 350px ;
+    padding-bottom: 350px;
+    background-image: url("../images/b_about.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#titre {
+    padding: 50px 0px 50px 50px;
+    margin-right: 50px;
+    font-size: 50px;
+    width: 450px;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+
+
+#txt {
+    padding: 50px 50px 50px 50px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+#ENG{
+    background-image: url("../images/flag_eng.png");
+    background-color: white;
+    background-size: 100%;
+    padding: 25px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 50px;
+    float: right;
+    transition: 200ms;
+
+}
+
+button:hover{
+    
+    filter: brightness(85%);
+
+}
+
+button:active {
+    filter: brightness(50%);
+
+}
+
+#blank{
+    background-color: white;
+    background-size: 100%;
+    padding: 25px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+#FR {
+    background-image: url("../images/flag_fr.png");
+    background-color: white;
+    background-size: 100%;
+    padding: 25px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-bottom: 50px;
+    transition: 200ms;
+
+}
+
+
+#infos {
+    margin-top: 50px;
+    color: rgb(148, 148, 148);
+    background-color: rgb(36, 36, 36);
+    padding: 50px;
+}

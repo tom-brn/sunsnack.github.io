@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Snack</title>
+    <link rel="stylesheet" href="../css/menus.css">
+</head>
+<body>
+
+    <header id="header">
+        <a class="top" href="menus.html">MENUS</a>
+        <a class="top" href="lieux.html">LIEUX</a>
+        <a href="index.html"><img id="logo" src="../images/sun_snack.png" alt="logo sun snack"></a>
+        <a id="mid" href="index.html"></a>  
+        <a class="top" href="about.html">A PROPOS</a>
+        <a class="top" href="contact.html">CONTACT</a>
+        </header>
+ 
+    <div id="banniere">Découvrez nos plats uniques !</div>
+
+    <div id="titre">Nos recettes</div>
+
+
+        
+
+    <div class="boite">
+
+        <img class="food" src="../images/burger.jpg" alt="burger">
+
+        <h1>Sun Burger</h1>
+        <p class="desc">Découvrez notre burger original au pain aux graines de tournesol !</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">
+            <p class="txt"> - Pain toasté aux graines de tournesol <br><br>- Salade <br><br>- Tomates <br><br>- Oignons <br><br>- Steak de boeuf <br><br>- Moutarde
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/salad.png" alt="salade">
+        
+        <h1>Sun Salad</h1>
+        <p class="desc">Une composition rafraîchissante pour les envies légères</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">  
+            <p class="txt">- Feuilles de laitue <br><br> - Huile de tournesol <br><br> - Maïs <br><br> - Graines de tournesol <br><br> - Tomates
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/hotdog.jpg" alt="hot dog">
+
+        <h1>Sun Dog</h1>
+        <p class="desc">Goûtez nos hot dogs au pain aux graines</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">
+            <p class="txt"> - Saucisse <br><br> - Pain aux graines de tournesol <br><br> - Moutarde <br><br> - Ketchup
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/wraps.jpg" alt="wrap">
+
+        <h1>Sun Wraps</h1>
+        <p class="desc">De tendres wraps de poulet avec une délicieuse salade aromatisée à l'huile de tournesol</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">  
+            <p class="txt"> - Wraps <br><br> - Salade <br><br> - Tomates <br><br> - Poulet <br><br> - Huile de tournesol
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/grill.jpg" alt="fleur de tournesol grillée">
+
+        <h1>Le Sun Flower</h1>
+        <p class="desc">Notre spécialité insolite et gourmande : une tête de tournesol grillée, oseriez-vous tenter ? </p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">
+            <p class="txt"> - Tête de tournesol <br><br> - Beurre <br><br> - Sel <br><br> - Sauce épicée <br><br> - Accompagnement : frites
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/seeds.jpg" alt="graines de tournesol">
+
+        <h1>Sun Seeds</h1>
+        <p class="desc">Picorez vos graines préférées et découvrez nos 5 saveurs originales</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">
+            <p class="txt"> - Graines de tournesol <br><br> Arômes : <br><br> - Salées <br><br> - Pistache <br><br> - Grillées <br><br> - Paprika <br><br> - Piment moulu 
+        </div>
+    </div>
+
+
+    <div class="boite">
+
+        <img class="food" src="../images/muffins.jpg" alt="muffins">
+
+        <h1>Sun Muffins</h1>
+        <p class="desc">Redécouvrez la douceur du muffin avec une touche de tournesol</p>
+        <button class="ingredients">Ingrédients >></button>
+        <div class="contenu">
+            <p class="txt">- Farine <br><br> - Sucre <br><br> - Lait <br><br> - Beurre <br><br> - Oeuf <br><br> - Chocolat <br><br> - Graines de tournesol </p>
+        </div>
+    </div>
+
+
+    <script>
+        let boutons = document.querySelectorAll(".ingredients");
+
+        boutons.forEach(bouton => {
+            bouton.addEventListener("click", () => {
+
+                let contenu = bouton.nextElementSibling;
+
+                if (contenu.style.visibility === "visible") {
+                    contenu.style.visibility = "hidden";
+                    bouton.textContent = "Ingrédients >>";
+                } else {
+                    contenu.style.visibility = "visible";
+                    bouton.textContent = "Ingrédients >>";
+                }
+            });
+        });
+    </script>
+    
+
+<footer id="infos">SunSnack 2024©  Tout droits reservés</footer>
+
+</body>
